@@ -10,6 +10,7 @@ Clone the github repo
 
 ```
 git clone https://github.com/CallMeAlexO/jcalg1.git
+cd jcalg1
 ```
 
 Then just install
