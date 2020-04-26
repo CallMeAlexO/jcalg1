@@ -24,7 +24,7 @@ python setup.py install
 I planned to make JCALG1 as similar as possible to zlib, for consistancy. 
 There are two functions: `compress` and `decompress`. 
 
-```
+```python
 import jcalg1
 
 text = """
