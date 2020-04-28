@@ -6,17 +6,18 @@ A python module to interface with Jeremy Collake's [JCALG1](https://github.com/j
 
 ### Installation
 
-Clone the github repo
+Either clone the github repo
 
 ```
 git clone https://github.com/CallMeAlexO/jcalg1.git
 cd jcalg1
-```
-
-Then just install
-
-```
 python setup.py install
+```
+
+Or use pip
+
+```
+pip install jcalg1
 ```
 
 ### Usage
