@@ -15,11 +15,11 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="jcalg1",
-    version="1.0",
+    version="1.0.4",
     description="Interface to the JCALG1 compression library",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/alexeyo/jcalg1",
+    url="https://github.com/CallMeAlexO/jcalg1",
     author="Alex Osheter",
     author_email="alex.osheter@gmail.com",
     license="MIT",
@@ -29,5 +29,6 @@ setup(
         "Programming Language :: Python :: 3.7",
     ],
     ext_modules = [ jc_module ],
-    packages=find_packages()
+    packages=find_packages(),
+    headers=['src\jcalg1.h']
 )
